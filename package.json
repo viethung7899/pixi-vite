@@ -1,0 +1,29 @@
+{
+  "name": "pixi-vite",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "format": "prettier . --write",
+    "lint": "eslint --ext .ts --ignore-path .gitignore --fix src"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "postcss": "^8.4.8",
+    "prettier": "^2.5.1",
+    "tailwindcss": "^3.0.23",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0"
+  },
+  "dependencies": {
+    "pixi.js": "^6.2.2"
+  }
+}
